@@ -54,6 +54,7 @@
             * buffers
               * [CircularBuffer](https://github.com/TheAlgorithms/Java/blob/master/src/main/java/com/thealgorithms/datastructures/buffers/CircularBuffer.java)
             * caches
+              * [LFUCache](https://github.com/TheAlgorithms/Java/blob/master/src/main/java/com/thealgorithms/datastructures/caches/LFUCache.java)
               * [LRUCache](https://github.com/TheAlgorithms/Java/blob/master/src/main/java/com/thealgorithms/datastructures/caches/LRUCache.java)
               * [MRUCache](https://github.com/TheAlgorithms/Java/blob/master/src/main/java/com/thealgorithms/datastructures/caches/MRUCache.java)
             * disjointsets
@@ -416,6 +417,7 @@
             * [CharactersSame](https://github.com/TheAlgorithms/Java/blob/master/src/main/java/com/thealgorithms/strings/CharactersSame.java)
             * [CheckAnagrams](https://github.com/TheAlgorithms/Java/blob/master/src/main/java/com/thealgorithms/strings/CheckAnagrams.java)
             * [CheckVowels](https://github.com/TheAlgorithms/Java/blob/master/src/main/java/com/thealgorithms/strings/CheckVowels.java)
+            * [HammingDistance](https://github.com/TheAlgorithms/Java/blob/master/src/main/java/com/thealgorithms/strings/HammingDistance.java)
             * [HorspoolSearch](https://github.com/TheAlgorithms/Java/blob/master/src/main/java/com/thealgorithms/strings/HorspoolSearch.java)
             * [List all Possible Words From Phone Digits](https://github.com/TheAlgorithms/Java/blob/master/src/main/java/com/thealgorithms/strings/List_all_Possible_Words_From_Phone_Digits.java)
             * [longestNonRepeativeSubstring](https://github.com/TheAlgorithms/Java/blob/master/src/main/java/com/thealgorithms/strings/longestNonRepeativeSubstring.java)
@@ -440,6 +442,8 @@
           * datastructures
             * bloomfilter
               * [BloomFilterTest](https://github.com/TheAlgorithms/Java/blob/master/src/test/java/com/thealgorithms/datastructures/bloomfilter/BloomFilterTest.java)
+            * caches
+              * [LFUCacheTest](https://github.com/TheAlgorithms/Java/blob/master/src/test/java/com/thealgorithms/datastructures/caches/LFUCacheTest.java)
             * graphs
               * [HamiltonianCycleTest](https://github.com/TheAlgorithms/Java/blob/master/src/test/java/com/thealgorithms/datastructures/graphs/HamiltonianCycleTest.java)
             * heaps
@@ -452,7 +456,9 @@
             * [AbsoluteValueTest](https://github.com/TheAlgorithms/Java/blob/master/src/test/java/com/thealgorithms/maths/AbsoluteValueTest.java)
             * [ADTFractionTest](https://github.com/TheAlgorithms/Java/blob/master/src/test/java/com/thealgorithms/maths/ADTFractionTest.java)
             * [AliquotSumTest](https://github.com/TheAlgorithms/Java/blob/master/src/test/java/com/thealgorithms/maths/AliquotSumTest.java)
+            * [AmicableNumberTest](https://github.com/TheAlgorithms/Java/blob/master/src/test/java/com/thealgorithms/maths/AmicableNumberTest.java)
             * [ArmstrongTest](https://github.com/TheAlgorithms/Java/blob/master/src/test/java/com/thealgorithms/maths/ArmstrongTest.java)
+            * [AutomorphicNumberTest](https://github.com/TheAlgorithms/Java/blob/master/src/test/java/com/thealgorithms/maths/AutomorphicNumberTest.java)
             * [AverageTest](https://github.com/TheAlgorithms/Java/blob/master/src/test/java/com/thealgorithms/maths/AverageTest.java)
             * [DistanceFormulaTest](https://github.com/TheAlgorithms/Java/blob/master/src/test/java/com/thealgorithms/maths/DistanceFormulaTest.java)
             * [FactorialTest](https://github.com/TheAlgorithms/Java/blob/master/src/test/java/com/thealgorithms/maths/FactorialTest.java)
@@ -480,15 +486,17 @@
             * [CountFriendsPairingTest](https://github.com/TheAlgorithms/Java/blob/master/src/test/java/com/thealgorithms/others/CountFriendsPairingTest.java)
             * [FirstFitCPUTest](https://github.com/TheAlgorithms/Java/blob/master/src/test/java/com/thealgorithms/others/FirstFitCPUTest.java)
             * [KadaneAlogrithmTest](https://github.com/TheAlgorithms/Java/blob/master/src/test/java/com/thealgorithms/others/KadaneAlogrithmTest.java)
-            * [LinkList Sort test](https://github.com/TheAlgorithms/Java/blob/master/src/test/java/com/thealgorithms/others/LinkList_Sort_test.java)
+            * [LinkListSortTest](https://github.com/TheAlgorithms/Java/blob/master/src/test/java/com/thealgorithms/others/LinkListSortTest.java)
             * [NewManShanksPrimeTest](https://github.com/TheAlgorithms/Java/blob/master/src/test/java/com/thealgorithms/others/NewManShanksPrimeTest.java)
             * [NextFitTest](https://github.com/TheAlgorithms/Java/blob/master/src/test/java/com/thealgorithms/others/NextFitTest.java)
+            * [PasswordGenTest](https://github.com/TheAlgorithms/Java/blob/master/src/test/java/com/thealgorithms/others/PasswordGenTest.java)
             * [UniquePathsTests](https://github.com/TheAlgorithms/Java/blob/master/src/test/java/com/thealgorithms/others/UniquePathsTests.java)
             * [WorstFitCPUTest](https://github.com/TheAlgorithms/Java/blob/master/src/test/java/com/thealgorithms/others/WorstFitCPUTest.java)
           * searches
             * [QuickSelectTest](https://github.com/TheAlgorithms/Java/blob/master/src/test/java/com/thealgorithms/searches/QuickSelectTest.java)
           * sorts
             * [DutchNationalFlagSortTest](https://github.com/TheAlgorithms/Java/blob/master/src/test/java/com/thealgorithms/sorts/DutchNationalFlagSortTest.java)
+            * [QuickSortTest](https://github.com/TheAlgorithms/Java/blob/master/src/test/java/com/thealgorithms/sorts/QuickSortTest.java)
             * [TopologicalSortTest](https://github.com/TheAlgorithms/Java/blob/master/src/test/java/com/thealgorithms/sorts/TopologicalSortTest.java)
             * [WiggleSortTest](https://github.com/TheAlgorithms/Java/blob/master/src/test/java/com/thealgorithms/sorts/WiggleSortTest.java)
           * strings
@@ -496,6 +504,7 @@
             * [AnagramsTest](https://github.com/TheAlgorithms/Java/blob/master/src/test/java/com/thealgorithms/strings/AnagramsTest.java)
             * [CharacterSameTest](https://github.com/TheAlgorithms/Java/blob/master/src/test/java/com/thealgorithms/strings/CharacterSameTest.java)
             * [CheckAnagramsTest](https://github.com/TheAlgorithms/Java/blob/master/src/test/java/com/thealgorithms/strings/CheckAnagramsTest.java)
+            * [HammingDistanceTest](https://github.com/TheAlgorithms/Java/blob/master/src/test/java/com/thealgorithms/strings/HammingDistanceTest.java)
             * [longestNonRepeativeSubstringTest](https://github.com/TheAlgorithms/Java/blob/master/src/test/java/com/thealgorithms/strings/longestNonRepeativeSubstringTest.java)
             * [PalindromeTest](https://github.com/TheAlgorithms/Java/blob/master/src/test/java/com/thealgorithms/strings/PalindromeTest.java)
             * [PangramTest](https://github.com/TheAlgorithms/Java/blob/master/src/test/java/com/thealgorithms/strings/PangramTest.java)
